@@ -1,0 +1,6 @@
+{
+  "name": "RectiSim - Rectifier Bridge Waveform Simulator",
+  "description": "Interactive power electronics simulator for controlled rectifier bridge topologies, firing angles, and R/RL/RLE load waveforms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

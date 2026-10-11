@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useCallback } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { CircuitParameters } from './types/rectifier';
 import { simulateRectifier } from './services/rectifierSimulation';
 import { CIRCUIT_PRESETS } from './data/presets';
@@ -140,6 +141,9 @@ export default function App() {
           <span>Sampling: 1,000 steps/cycle</span>
         </div>
       </footer>
+
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 }
